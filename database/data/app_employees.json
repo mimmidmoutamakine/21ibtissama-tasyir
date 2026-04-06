@@ -1,0 +1,1740 @@
+{
+  "employees": [
+    {
+      "user": {
+        "name": "ليلى هبري",
+        "email": "emp001@21ibtissama.ma",
+        "password": "password",
+        "job_title": "مؤطر(ة) تربوي(ة)",
+        "phone": null,
+        "is_active": true,
+        "role": "educator"
+      },
+      "employee": {
+        "employee_code": "EMP-001",
+        "full_name": "ليلى هبري",
+        "role_label": "تأطير تربوي",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "تأطير تربوي",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "خديجة الرفيق",
+        "email": "emp002@21ibtissama.ma",
+        "password": "password",
+        "job_title": "مؤطر(ة) تربوي(ة)",
+        "phone": null,
+        "is_active": true,
+        "role": "educator"
+      },
+      "employee": {
+        "employee_code": "EMP-002",
+        "full_name": "خديجة الرفيق",
+        "role_label": "تأطير تربوي",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "تأطير تربوي",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "فاطة قرفة",
+        "email": "mKarfaftima@gmail.com",
+        "password": "password",
+        "job_title": "مؤطر(ة) تربوي(ة)",
+        "phone": null,
+        "is_active": true,
+        "role": "educator"
+      },
+      "employee": {
+        "employee_code": "EMP-003",
+        "full_name": "فاطة قرفة",
+        "role_label": "تأطير تربوي",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "تأطير تربوي",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "خديجة الرويسي",
+        "email": "21ibtissama.khadijarouissi@gmail.com",
+        "password": "password",
+        "job_title": "مؤطر(ة) تربوي(ة)",
+        "phone": null,
+        "is_active": true,
+        "role": "educator"
+      },
+      "employee": {
+        "employee_code": "EMP-004",
+        "full_name": "خديجة الرويسي",
+        "role_label": "تأطير تربوي",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "تأطير تربوي",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "سلوى إسماعيلي",
+        "email": "Salwaismaili22@gmail.com",
+        "password": "password",
+        "job_title": "مؤطر(ة) تربوي(ة)",
+        "phone": null,
+        "is_active": true,
+        "role": "educator"
+      },
+      "employee": {
+        "employee_code": "EMP-005",
+        "full_name": "سلوى إسماعيلي",
+        "role_label": "تأطير تربوي",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "تأطير تربوي",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "ياسين شحاع",
+        "email": "yassine_chojaa@hotmail.com",
+        "password": "password",
+        "job_title": "مؤطر(ة) تربوي(ة)",
+        "phone": null,
+        "is_active": true,
+        "role": "educator"
+      },
+      "employee": {
+        "employee_code": "EMP-006",
+        "full_name": "ياسين شحاع",
+        "role_label": "تأطير تربوي",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "تأطير تربوي",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "عزيزة لمدسم",
+        "email": "emp003@21ibtissama.ma",
+        "password": "password",
+        "job_title": "مؤطر(ة) تربوي(ة)",
+        "phone": null,
+        "is_active": true,
+        "role": "educator"
+      },
+      "employee": {
+        "employee_code": "EMP-007",
+        "full_name": "عزيزة لمدسم",
+        "role_label": "تأطير تربوي",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "تأطير تربوي",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "سميرة وديع",
+        "email": "emp004@21ibtissama.ma",
+        "password": "password",
+        "job_title": "مؤطر(ة) تربوي(ة)",
+        "phone": null,
+        "is_active": true,
+        "role": "educator"
+      },
+      "employee": {
+        "employee_code": "EMP-008",
+        "full_name": "سميرة وديع",
+        "role_label": "تأطير تربوي",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "تأطير تربوي",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "عتيقة اللوزة",
+        "email": "emp005@21ibtissama.ma",
+        "password": "password",
+        "job_title": "مؤطر(ة) تربوي(ة)",
+        "phone": null,
+        "is_active": true,
+        "role": "educator"
+      },
+      "employee": {
+        "employee_code": "EMP-009",
+        "full_name": "عتيقة اللوزة",
+        "role_label": "تأطير تربوي",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "تأطير تربوي",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "خديجة بوهلال",
+        "email": "emp006@21ibtissama.ma",
+        "password": "password",
+        "job_title": "مؤطر(ة) تربوي(ة)",
+        "phone": null,
+        "is_active": true,
+        "role": "educator"
+      },
+      "employee": {
+        "employee_code": "EMP-010",
+        "full_name": "خديجة بوهلال",
+        "role_label": "تأطير تربوي",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "تأطير تربوي",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "الحبيب اجوهاري",
+        "email": "lahbib1966@gmail.com",
+        "password": "password",
+        "job_title": "أخصائي(ة) الترويض الطبي",
+        "phone": null,
+        "is_active": true,
+        "role": "specialist"
+      },
+      "employee": {
+        "employee_code": "EMP-011",
+        "full_name": "الحبيب اجوهاري",
+        "role_label": "الترويض الطبي",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الترويض الطبي",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "يوسف البصري",
+        "email": "youssefbasry@hotmail.com",
+        "password": "password",
+        "job_title": "أخصائي نفسي",
+        "phone": null,
+        "is_active": true,
+        "role": "specialist"
+      },
+      "employee": {
+        "employee_code": "EMP-012",
+        "full_name": "يوسف البصري",
+        "role_label": "الدعم والمواكبة النفسية",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الدعم والمواكبة النفسية",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "إيمان شنون",
+        "email": "Orthophoniste.imanechennoune@gmail.com",
+        "password": "password",
+        "job_title": "أخصائي(ة) تقويم النطق",
+        "phone": null,
+        "is_active": true,
+        "role": "specialist"
+      },
+      "employee": {
+        "employee_code": "EMP-013",
+        "full_name": "إيمان شنون",
+        "role_label": "تقويم النطق",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "تقويم النطق",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "بسمة اسماعيلي",
+        "email": "emp007@21ibtissama.ma",
+        "password": "password",
+        "job_title": "مدير المؤسسة",
+        "phone": null,
+        "is_active": true,
+        "role": "admin"
+      },
+      "employee": {
+        "employee_code": "EMP-014",
+        "full_name": "بسمة اسماعيلي",
+        "role_label": "الإدارة",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الإدارة",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "محمد عطاوي",
+        "email": "aataouimohamed98@gmail.com",
+        "password": "password",
+        "job_title": "مدير المؤسسة",
+        "phone": null,
+        "is_active": true,
+        "role": "admin"
+      },
+      "employee": {
+        "employee_code": "EMP-015",
+        "full_name": "محمد عطاوي",
+        "role_label": "الإدارة",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الإدارة",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "نادية أوفقير",
+        "email": "nadiaofqir@gmail.com",
+        "password": "password",
+        "job_title": "موظف",
+        "phone": null,
+        "is_active": true,
+        "role": "staff"
+      },
+      "employee": {
+        "employee_code": "EMP-016",
+        "full_name": "نادية أوفقير",
+        "role_label": "الموارد البشرية",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الموارد البشرية",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "فاطمة جواد",
+        "email": "fatimajawad343@gmail.com",
+        "password": "password",
+        "job_title": "موظف",
+        "phone": null,
+        "is_active": true,
+        "role": "staff"
+      },
+      "employee": {
+        "employee_code": "EMP-017",
+        "full_name": "فاطمة جواد",
+        "role_label": "الموارد البشرية",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الموارد البشرية",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "ليلى بنلمدني",
+        "email": "emp008@21ibtissama.ma",
+        "password": "password",
+        "job_title": "موظف",
+        "phone": null,
+        "is_active": true,
+        "role": "staff"
+      },
+      "employee": {
+        "employee_code": "EMP-018",
+        "full_name": "ليلى بنلمدني",
+        "role_label": "الموارد البشرية",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الموارد البشرية",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "لمياء رواح",
+        "email": "emp009@21ibtissama.ma",
+        "password": "password",
+        "job_title": "موظف",
+        "phone": null,
+        "is_active": true,
+        "role": "staff"
+      },
+      "employee": {
+        "employee_code": "EMP-019",
+        "full_name": "لمياء رواح",
+        "role_label": "الموارد البشرية",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الموارد البشرية",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "سلمى الخباز",
+        "email": "emp010@21ibtissama.ma",
+        "password": "password",
+        "job_title": "موظف",
+        "phone": null,
+        "is_active": true,
+        "role": "staff"
+      },
+      "employee": {
+        "employee_code": "EMP-020",
+        "full_name": "سلمى الخباز",
+        "role_label": "الموارد البشرية",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الموارد البشرية",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "سهام وديع",
+        "email": "emp011@21ibtissama.ma",
+        "password": "password",
+        "job_title": "موظف",
+        "phone": null,
+        "is_active": true,
+        "role": "staff"
+      },
+      "employee": {
+        "employee_code": "EMP-021",
+        "full_name": "سهام وديع",
+        "role_label": "الموارد البشرية",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الموارد البشرية",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "فاطمة الزهراء سلام",
+        "email": "emp012@21ibtissama.ma",
+        "password": "password",
+        "job_title": "موظف",
+        "phone": null,
+        "is_active": true,
+        "role": "staff"
+      },
+      "employee": {
+        "employee_code": "EMP-022",
+        "full_name": "فاطمة الزهراء سلام",
+        "role_label": "الموارد البشرية",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الموارد البشرية",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "إحسان بوهنيد",
+        "email": "emp013@21ibtissama.ma",
+        "password": "password",
+        "job_title": "موظف",
+        "phone": null,
+        "is_active": true,
+        "role": "staff"
+      },
+      "employee": {
+        "employee_code": "EMP-023",
+        "full_name": "إحسان بوهنيد",
+        "role_label": "الموارد البشرية",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الموارد البشرية",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "نسيمة بوسدرة",
+        "email": "emp014@21ibtissama.ma",
+        "password": "password",
+        "job_title": "موظف",
+        "phone": null,
+        "is_active": true,
+        "role": "staff"
+      },
+      "employee": {
+        "employee_code": "EMP-024",
+        "full_name": "نسيمة بوسدرة",
+        "role_label": "الموارد البشرية",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الموارد البشرية",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "وسيمة عواد",
+        "email": "aououado@gmail.com",
+        "password": "password",
+        "job_title": "أخصائي(ة) تقويم النطق",
+        "phone": null,
+        "is_active": true,
+        "role": "specialist"
+      },
+      "employee": {
+        "employee_code": "EMP-025",
+        "full_name": "وسيمة عواد",
+        "role_label": "تقويم النطق",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "تقويم النطق",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "مليكة جرموني",
+        "email": "emp015@21ibtissama.ma",
+        "password": "password",
+        "job_title": "موظف",
+        "phone": null,
+        "is_active": true,
+        "role": "staff"
+      },
+      "employee": {
+        "employee_code": "EMP-026",
+        "full_name": "مليكة جرموني",
+        "role_label": "الموارد البشرية",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الموارد البشرية",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "الجلالي جبال",
+        "email": "emp016@21ibtissama.ma",
+        "password": "password",
+        "job_title": "موظف",
+        "phone": null,
+        "is_active": true,
+        "role": "staff"
+      },
+      "employee": {
+        "employee_code": "EMP-027",
+        "full_name": "الجلالي جبال",
+        "role_label": "الموارد البشرية",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الموارد البشرية",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "وداد الحمداوي",
+        "email": "emp017@21ibtissama.ma",
+        "password": "password",
+        "job_title": "موظف",
+        "phone": null,
+        "is_active": true,
+        "role": "staff"
+      },
+      "employee": {
+        "employee_code": "EMP-028",
+        "full_name": "وداد الحمداوي",
+        "role_label": "الموارد البشرية",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الموارد البشرية",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "وفاء شجاع",
+        "email": "emp018@21ibtissama.ma",
+        "password": "password",
+        "job_title": "موظف",
+        "phone": null,
+        "is_active": true,
+        "role": "staff"
+      },
+      "employee": {
+        "employee_code": "EMP-029",
+        "full_name": "وفاء شجاع",
+        "role_label": "الموارد البشرية",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الموارد البشرية",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "حورية كماح",
+        "email": "houriagammah@icloud.com",
+        "password": "password",
+        "job_title": "موظف",
+        "phone": null,
+        "is_active": true,
+        "role": "staff"
+      },
+      "employee": {
+        "employee_code": "EMP-030",
+        "full_name": "حورية كماح",
+        "role_label": "الموارد البشرية",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الموارد البشرية",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    },
+    {
+      "user": {
+        "name": "حدوهم الرويسي",
+        "email": "emp019@21ibtissama.ma",
+        "password": "password",
+        "job_title": "موظف",
+        "phone": null,
+        "is_active": true,
+        "role": "staff"
+      },
+      "employee": {
+        "employee_code": "EMP-031",
+        "full_name": "حدوهم الرويسي",
+        "role_label": "الموارد البشرية",
+        "phone": null,
+        "cin": null,
+        "hire_date": "2025-09-01",
+        "contract_type": "CDD",
+        "qualification": null,
+        "status": "active",
+        "organization_notes": {
+          "department": "الموارد البشرية",
+          "supervisor": "محمد عطاوي"
+        }
+      },
+      "documents": [
+        {
+          "category": "إداري",
+          "title": "نسخة بطاقة التعريف",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "تعاقدي",
+          "title": "عقد العمل",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        },
+        {
+          "category": "كفاءات",
+          "title": "الشهادات والمؤهلات",
+          "is_required": true,
+          "needs_update": false,
+          "file_path": null
+        }
+      ],
+      "attendance_seed": [
+        {
+          "attendance_date": "2026-04-06",
+          "status": "present",
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

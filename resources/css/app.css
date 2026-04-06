@@ -1,0 +1,206 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family: 'Cairo', sans-serif;
+    }
+}
+
+@layer components {
+    .sidebar-shell {
+        @apply hidden w-[310px] shrink-0 lg:block;
+    }
+
+    .sidebar-link {
+        @apply flex items-center justify-between rounded-2xl px-4 py-3 text-sm font-bold text-slate-600 transition;
+    }
+
+    .sidebar-link:hover {
+        background-color: rgba(30, 87, 164, 0.06);
+        color: #1e57a4;
+    }
+
+    .sidebar-link-active {
+        @apply text-white shadow-soft;
+        background-color: #1e57a4;
+    }
+
+    .form-input {
+        @apply w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-800 placeholder:text-slate-400 focus:ring-2;
+    }
+
+    .form-input:focus {
+        border-color: #1e57a4;
+        --tw-ring-color: rgba(30, 87, 164, 0.18);
+    }
+
+    .shadow-soft {
+        box-shadow: 0 22px 55px rgba(15, 23, 42, 0.08);
+    }
+
+    .info-card {
+        @apply rounded-2xl bg-slate-50 px-4 py-4;
+    }
+
+    .info-card span {
+        @apply block text-xs font-semibold text-slate-500;
+    }
+
+    .info-card strong {
+        @apply mt-2 block text-sm font-bold text-slate-900;
+    }
+
+    .quick-action {
+        @apply rounded-2xl border border-slate-200 px-4 py-2 text-sm font-bold text-slate-700 transition;
+    }
+
+    .quick-action:hover {
+        border-color: #1e57a4;
+        color: #1e57a4;
+    }
+
+    .progress-dot {
+        @apply h-7 w-7 rounded-full border border-slate-300 bg-white transition;
+    }
+
+    .evaluation-sheet {
+        @apply rounded-[30px] border border-slate-100 px-6 py-7;
+    }
+
+    .sheet-dot {
+        @apply h-10 w-10 rounded-full border border-slate-300 bg-white transition duration-150;
+    }
+
+    .sheet-dot.is-active.empty {
+        @apply border-slate-400 bg-white;
+    }
+
+    .progress-dot.is-active.red {
+        @apply border-red-400 bg-red-400;
+    }
+
+    .progress-dot.is-active.blue {
+        @apply border-sky-400 bg-sky-400;
+    }
+
+    .progress-dot.is-active.yellow {
+        @apply border-amber-300 bg-amber-300;
+    }
+
+    .progress-dot.is-active.green {
+        @apply border-emerald-400 bg-emerald-400;
+    }
+
+    .sheet-dot.is-active.red {
+        @apply border-red-400 bg-red-400;
+    }
+
+    .sheet-dot.is-active.blue {
+        @apply border-sky-400 bg-sky-400;
+    }
+
+    .sheet-dot.is-active.yellow {
+        @apply border-amber-300 bg-amber-300;
+    }
+
+    .sheet-dot.is-active.green {
+        @apply border-emerald-400 bg-emerald-400;
+    }
+
+    .whatsapp-action {
+        @apply rounded-2xl border px-4 py-2 text-sm font-bold transition;
+        border-color: rgba(34, 197, 94, 0.25);
+        color: rgb(21, 128, 61);
+        background-color: rgba(34, 197, 94, 0.06);
+    }
+
+    .whatsapp-action:hover {
+        border-color: rgb(34, 197, 94);
+        background-color: rgba(34, 197, 94, 0.12);
+    }
+
+    .mobile-card {
+        @apply rounded-[24px] bg-white p-4 shadow-soft sm:p-5 lg:rounded-[28px] lg:p-6;
+    }
+
+    .mobile-section-title {
+        @apply text-lg font-extrabold text-slate-900 lg:text-xl;
+    }
+
+    .mobile-form-grid {
+        @apply grid gap-4 lg:grid-cols-2;
+    }
+
+    .mobile-check-row {
+        @apply flex min-h-[56px] items-center gap-3 rounded-2xl border border-slate-200 px-4 py-3;
+    }
+
+    .mobile-actions {
+        @apply flex flex-wrap gap-2;
+    }
+
+    @media (max-width: 640px) {
+        .shadow-soft {
+            box-shadow: 0 12px 28px rgba(15, 23, 42, 0.06);
+        }
+
+        .form-input {
+            min-height: 48px;
+            font-size: 16px;
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+        }
+
+        textarea.form-input {
+            min-height: 110px;
+        }
+
+        select.form-input {
+            background-position: left 0.75rem center;
+        }
+
+        .quick-action {
+            padding: 0.65rem 0.9rem;
+            font-size: 0.875rem;
+        }
+    }
+
+    .tab-pill {
+        @apply rounded-2xl px-3 py-3 text-sm font-bold transition;
+    }
+
+    .doc-row {
+        @apply rounded-[20px] border border-slate-100 bg-slate-50/70 p-4;
+    }
+
+    .progress-bar-shell {
+        @apply h-3 rounded-full bg-slate-100;
+    }
+
+    .progress-bar-fill {
+        @apply h-3 rounded-full transition-all duration-300;
+        background-color: #1e57a4;
+    }
+
+    .doc-upload-shell {
+        @apply flex min-h-[52px] items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-3 py-2;
+    }
+
+    .doc-upload-label {
+        @apply shrink-0 rounded-xl bg-[#1e57a4] px-3 py-2 text-xs font-bold text-white;
+    }
+
+    .doc-upload-input {
+        @apply sr-only;
+    }
+
+    .doc-upload-name {
+        @apply min-w-0 truncate text-sm font-semibold text-slate-500;
+    }
+
+    .doc-check-compact {
+        @apply flex min-h-[52px] items-center justify-center gap-2 rounded-2xl border border-slate-200 px-3 py-2 text-sm font-bold text-slate-700;
+    }
+}
