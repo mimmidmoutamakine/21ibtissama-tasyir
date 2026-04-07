@@ -42,7 +42,12 @@
     ];
 @endphp
 
-<aside class="sidebar-shell">
+@php($isMobileSidebar = $mobile ?? false)
+
+<aside @class([
+    'sidebar-shell' => ! $isMobileSidebar,
+    'w-full' => $isMobileSidebar,
+])>
     <div class="rounded-[28px] bg-white p-6 shadow-soft">
         <div class="mb-8 flex items-center gap-3">
             <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#1e57a4] text-2xl font-bold text-white">21</div>
@@ -62,7 +67,10 @@
                             <a href="{{ route($item['route']) }}" @class([
                                 'sidebar-link',
                                 'sidebar-link-active' => request()->routeIs($item['route']),
-                            ])>
+                            ])
+                            @if($isMobileSidebar)
+                                @click="mobileMenuOpen = false"
+                            @endif>
                                 <span>{{ $item['label'] }}</span>
                             </a>
                         @endforeach

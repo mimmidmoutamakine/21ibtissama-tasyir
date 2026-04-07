@@ -13,6 +13,18 @@
         @apply hidden w-[310px] shrink-0 lg:block;
     }
 
+    .mobile-menu-trigger {
+        @apply fixed right-3 top-3 z-50 flex items-center gap-2 rounded-2xl bg-[#1e57a4] px-4 py-3 text-sm font-bold text-white shadow-soft lg:hidden;
+    }
+
+    .mobile-sidebar-shell {
+        @apply fixed inset-y-0 right-0 z-50 w-[88vw] max-w-[360px] translate-x-full bg-white shadow-2xl transition-transform duration-300 lg:hidden;
+    }
+
+    .mobile-sidebar-shell.is-open {
+        transform: translateX(0);
+    }
+
     .sidebar-link {
         @apply flex items-center justify-between rounded-2xl px-4 py-3 text-sm font-bold text-slate-600 transition;
     }
@@ -144,6 +156,11 @@
     @media (max-width: 640px) {
         .shadow-soft {
             box-shadow: 0 12px 28px rgba(15, 23, 42, 0.06);
+        }
+
+        .mobile-menu-trigger {
+            top: 0.75rem;
+            right: 0.75rem;
         }
 
         .form-input {
