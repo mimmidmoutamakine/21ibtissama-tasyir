@@ -15,7 +15,10 @@ return new class extends Migration {
             $table->unsignedTinyInteger('progress_percent')->default(0);
             $table->timestamps();
 
-            $table->unique(['daily_evaluation_entry_id', 'attempt_number']);
+            $table->unique(
+                ['daily_evaluation_entry_id', 'attempt_number'],
+                'daily_eval_attempt_entry_attempt_unique'
+            );
         });
     }
 
