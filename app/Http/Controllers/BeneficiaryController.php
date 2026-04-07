@@ -168,7 +168,7 @@ class BeneficiaryController extends Controller
         $user = auth()->user();
 
         $beneficiaries = Beneficiary::query()
-            ->with(['annualProjects.domains.objectives', 'monthlyEvaluations.entries'])
+            ->with(['annualProjects.domains.objectives', 'monthlyEvaluations.entries', 'monthlyPlans'])
             ->when($user->hasRole('educator'), fn ($query) => $query->where('primary_educator_id', $user->id))
             ->when($user->hasRole('specialist'), fn ($query) => $query->whereHas('serviceAssignments', fn ($assignments) => $assignments->where('specialist_id', $user->id)))
             ->get();

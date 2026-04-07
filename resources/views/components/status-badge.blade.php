@@ -12,11 +12,13 @@
         'rejected' => ['مرفوض', 'bg-rose-100 text-rose-700'],
         'revision' => ['مرجع للتعديل', 'bg-orange-100 text-orange-700'],
         'draft' => ['مسودة', 'bg-slate-100 text-slate-700'],
+        'pending' => ['قيد الانتظار', 'bg-amber-100 text-amber-700'],
         'present' => ['حاضر', 'bg-emerald-100 text-emerald-700'],
         'late' => ['متأخر', 'bg-amber-100 text-amber-700'],
         'absent' => ['غائب', 'bg-rose-100 text-rose-700'],
         'leave' => ['رخصة', 'bg-slate-100 text-slate-700'],
     ];
+
     [$label, $class] = $map[$value] ?? [$value, 'bg-slate-100 text-slate-700'];
 @endphp
 

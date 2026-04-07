@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ArchiveController;
+use App\Http\Controllers\AnnualProjectController;
 use App\Http\Controllers\AttendanceController;
 use App\Http\Controllers\BeneficiaryController;
 use App\Http\Controllers\DailyEvaluationController;
@@ -39,6 +40,11 @@ Route::middleware('auth')->group(function () {
     Route::post('/beneficiaries/{beneficiary}/documents/{document}', [BeneficiaryController::class, 'updateDocument'])->name('beneficiaries.documents.update');
 
     Route::get('/annual-projects', [BeneficiaryController::class, 'annualProjects'])->name('annual-projects.index');
+    Route::get('/annual-projects/{annualProject}', [AnnualProjectController::class, 'show'])->name('annual-projects.show');
+    Route::get('/annual-projects/{annualProject}/edit', [AnnualProjectController::class, 'edit'])->name('annual-projects.edit');
+    Route::put('/annual-projects/{annualProject}', [AnnualProjectController::class, 'update'])->name('annual-projects.update');
+    Route::get('/beneficiaries/{beneficiary}/annual-projects/create', [AnnualProjectController::class, 'create'])->name('annual-projects.create');
+    Route::post('/beneficiaries/{beneficiary}/annual-projects', [AnnualProjectController::class, 'store'])->name('annual-projects.store');
 
     Route::get('/monthly-plans', [MonthlyPlanController::class, 'index'])->name('monthly-plans.index');
     Route::get('/monthly-plans/{monthlyPlan}', [MonthlyPlanController::class, 'show'])->name('monthly-plans.show');

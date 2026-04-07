@@ -145,6 +145,13 @@
 
             <div class="rounded-[28px] bg-white p-6 shadow-soft">
                 <h2 class="text-xl font-bold text-slate-900">المشروع الفردي السنوي</h2>
+                <div class="mt-4 flex flex-wrap gap-2">
+                    @if($beneficiary->annualProjects->isEmpty() && $canEditBeneficiary)
+                        <a href="{{ route('annual-projects.create', $beneficiary) }}" class="rounded-2xl bg-[#1e57a4] px-4 py-2 text-sm font-bold text-white">
+                            إضافة مشروع سنوي
+                        </a>
+                    @endif
+                </div>
                 <div class="mt-5 space-y-4" x-data="{ openBeneficiary: 'project-{{ optional($beneficiary->annualProjects->first())->id }}' }">
                     @foreach ($beneficiary->annualProjects as $project)
                         <div class="rounded-3xl border border-slate-100">
@@ -156,6 +163,12 @@
                                 <x-status-badge :value="$project->approval_status" />
                             </button>
                             <div x-show="openBeneficiary === 'project-{{ $project->id }}'" class="border-t border-slate-100 px-5 py-5">
+                                <div class="mb-4 flex flex-wrap gap-2">
+                                    <a href="{{ route('annual-projects.show', $project) }}" class="quick-action">عرض المشروع</a>
+                                    @if($canEditBeneficiary)
+                                        <a href="{{ route('annual-projects.edit', $project) }}" class="quick-action">تعديل المشروع</a>
+                                    @endif
+                                </div>
                                 @foreach ($project->domains as $domain)
                                     <div class="mb-4 rounded-2xl bg-slate-50 p-4" x-data="{ openDomain: false }">
                                         <button type="button" class="flex w-full items-center justify-between text-right" @click="openDomain = !openDomain">

@@ -110,4 +110,32 @@ window.weeklyCell = (initialState = '') => ({
     },
 });
 
+window.annualProjectDomainEditor = (initialObjectives = []) => ({
+    objectives: initialObjectives.length
+        ? initialObjectives
+        : [{ id: null, objective_text: '', baseline_level: '', target_level: '', display_order: 1 }],
+
+    addObjective() {
+        this.objectives.push({
+            id: null,
+            objective_text: '',
+            baseline_level: '',
+            target_level: '',
+            display_order: this.objectives.length + 1,
+        });
+    },
+
+    removeObjective(objectiveIndex) {
+        if (this.objectives.length <= 1) {
+            return;
+        }
+
+        this.objectives.splice(objectiveIndex, 1);
+
+        this.objectives.forEach((objective, index) => {
+            objective.display_order = index + 1;
+        });
+    },
+});
+
 Alpine.start();
